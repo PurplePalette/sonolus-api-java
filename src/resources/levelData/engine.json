@@ -1,0 +1,129 @@
+{
+    "name": "pjsekai",
+    "version": 2,
+    "title": "Project Sekai Type.T",
+    "subtitle": "feat. Hatsune Miku",
+    "author": "Tosirukun",
+    "thumbnail":
+    {
+        "type": "EngineThumbnail",
+        "url": "https://pjsekai.tosirukun.tk/datas/thumbnail.png"
+    },
+    "data":
+    {
+        "type": "EngineData",
+        "url": "https://pjsekai.tosirukun.tk/datas/engineData/cdn/EngineData"
+    },
+    "configuration":
+    {
+        "type": "EngineConfiguration",
+        "url": "https://pjsekai.tosirukun.tk/datas/engineData/cdn/EngineConfiguration"
+    },
+    "skin":
+    {
+        "name": "psekai2",
+        "version": 1,
+        "title": "Project Sekai (Ver. 2)",
+        "subtitle": "Project SEKAI COLORFUL STAGE!",
+        "author": "Kuyaterai",
+        "thumbnail":
+        {
+            "type": "SkinThumbnail",
+            "url": "https://pjsekai.tosirukun.tk/datas/thumbnail.png"
+        },
+        "data":
+        {
+            "type": "SkinData",
+            "url": "https://pjsekai.tosirukun.tk/datas/skinData/skin.gz"
+        },
+        "texture":
+        {
+            "type": "SkinTexture",
+            "url": "https://pjsekai.tosirukun.tk/datas/skinData/texture.png"
+        },
+        "createdTime": 1622902730,
+        "updatedTime": 1622902730,
+        "userId": "YnaKWRpbanfyn1ge6FKQChqocyyn",
+        "description": "No description"
+    },
+    "background":
+    {
+        "name": "psekai",
+        "version": 1,
+        "title": "Project Sekai",
+        "subtitle": "Project SEKAI COLORFUL STAGE!",
+        "author": "Sonolus",
+        "thumbnail":
+        {
+            "type": "BackgroundThumbnail",
+            "url": "https://pjsekai.tosirukun.tk/datas/thumbnail.png"
+        },
+        "data":
+        {
+            "type": "BackgroundData",
+            "url": "https://pjsekai.tosirukun.tk/datas/backgroundData/background.gz"
+        },
+        "image":
+        {
+            "type": "BackgroundImage",
+            "url": "https://pjsekai.tosirukun.tk/datas/backgroundData/image.png"
+        },
+        "createdTime": 1622902730,
+        "updatedTime": 1622902730,
+        "userId": "YnaKWRpbanfyn1ge6FKQChqocyyn",
+        "description": "No description"
+    },
+    "effect":
+    {
+        "name": "psekai",
+        "version": 1,
+        "title": "Project Sekai",
+        "subtitle": "Project SEKAI COLORFUL STAGE!",
+        "author": "Sonolus",
+        "thumbnail":
+        {
+            "type": "EffectThumbnail",
+            "url": "https://pjsekai.tosirukun.tk/datas/thumbnail.png"
+        },
+        "data":
+        {
+            "type": "EffectData",
+            "url": "https://pjsekai.tosirukun.tk/datas/effectData/EffectData"
+        },
+        "createdTime": 1622902730,
+        "updatedTime": 1622902730,
+        "userId": "YnaKWRpbanfyn1ge6FKQChqocyyn",
+        "description": "No description"
+    },
+    "particle":
+    {
+        "name": "pixel",
+        "version": 1,
+        "title": "Pixel",
+        "subtitle": "Sonolus",
+        "author": "Sonolus",
+        "thumbnail":
+        {
+            "type": "ParticleThumbnail",
+            "url": "https://pjsekai.tosirukun.tk/datas/thumbnail.png"
+        },
+        "data":
+        {
+            "type": "ParticleData",
+            "url": "https://pjsekai.tosirukun.tk/datas/particleData/particle.gz"
+        },
+        "texture":
+        {
+            "type": "ParticleTexture",
+            "url": "https://pjsekai.tosirukun.tk/datas/particleData/particle.png"
+        },
+        "createdTime": 1622902730,
+        "updatedTime": 1622902730,
+        "userId": "YnaKWRpbanfyn1ge6FKQChqocyyn",
+        "description": "No description"
+    },
+    "createdTime": 1622902730,
+    "updatedTime": 1622902730,
+    "userId": "YnaKWRpbanfyn1ge6FKQChqocyyn",
+    "description": "No description"
+}

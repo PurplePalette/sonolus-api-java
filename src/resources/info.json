@@ -1,0 +1,62 @@
+{
+"levels": [
+{
+"name": "TechnicalWelcome",
+"version": 1,
+"rating": 8801,
+"engine": {
+"version": 1,
+"title": "Technical",
+"thumbnail": {},
+"data": {},
+"configuration": {},
+"skin": {
+"thumbnail": {},
+"data": {},
+"texture": {}
+},
+"background": {
+"thumbnail": {},
+"data": {},
+"image": {}
+},
+"effect": {
+"thumbnail": {},
+"data": {}
+},
+"particle": {
+"thumbnail": {},
+"data": {},
+"texture": {}
+}
+},
+"useSkin": {
+"useDefault": false
+},
+"useBackground": {
+"useDefault": false
+},
+"useEffect": {
+"useDefault": false
+},
+"useParticle": {
+"useDefault": false
+},
+"title": "ようこそ!",
+"artists": "もっと をタップして一覧を表示してください",
+"author": "Tosirukun",
+"cover": {
+"type": "LevelCover",
+"url": "https://pjsekai.tosirukun.tk/datas/thumbnail.png"
+},
+"bgm": {},
+"data": {},
+"description": "※この譜面は遊べません"
+}
+],
+"skins": [],
+"backgrounds": [],
+"effects": [],
+"particles": [],
+"engines": []
+}

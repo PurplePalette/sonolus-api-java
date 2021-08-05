@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="/favicon.png" sizes="16x16 24x24 32x32 48x48 64x64 128x128" />
+	<link rel="stylesheet" href="http://technical.tosirukun.tk/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1 class="title">Technical</h1>
+		<nav class="nav">
+      		<ul class="menu-group">
+        		<li class="menu-item"><a href="/">トップページ</a></li>
+        		<li class="menu-item"><a href="/user/">ユーザーページ</a></li>
+        		<li class="menu-item"><a href="/user/new-level.html">譜面投稿</a></li>
+      		</ul>
+    	</nav>
+  	</header>
+  	<form action="http://technical.tosirukun.tk/api/new-level" method="post" enctype="multipart/form-data">
+  	<ul class="levelForm">
+  		<li>
+  			<label for="levelName">曲の名前</label>
+  			<input type="text" id="levelName" name="levelName" required>
+  		</li>
+  		<li>
+  			<label for="levelDescription">曲の説明</label>
+  			<input type="text" id="levelDescription" name="levelDescription" required>
+  		</li>
+  		<li>
+  			<label for="levelAuthor">譜面製作者名</label>
+  			<input type="text" id="levelAuthor" name="levelAuthor" required>
+  		</li>
+  		<li>
+  			<label for="levelAuthorToken">譜面にアクセスするときに使用するパスワード</label>
+  			<input type="text" id="levelAuthorToken" name="levelAuthorToken" required>
+  		</li>
+  		<li>
+  			<label for="levelRating">譜面の難易度</label>
+  			<input type="text" id="levelRating" name="levelRating" required>
+  		</li>
+  		<li>
+  			<label for="levelArtists">曲の製作者名</label>
+  			<input type="text" id="levelArtists" name="levelArtists" required>
+  		</li>
+  		<li>
+  			<label for="levelJson">jsonに変換した譜面のファイルを指定してください</label>
+  			<input type="file" accept=".json" id="levelJson" name="levelJson" required>
+  		</li>
+  		<li>
+  			<label for="levelBGM">曲のファイルを指定してください(mp3のみ選択可能)</label>
+  			<input type="file" accept=".mp3" id="levelBGM" name="levelBGM" required>
+  		</li>
+  		<li>
+  			<label for="levelCover">曲のジャケット絵を指定してください</label>
+  			<input type="file" accept=".png" id="levelCover" name="levelCover" required>
+  		</li>
+  		<li>
+  			<input type="submit" id="Enter" value="送信する!">
+  		</li>
+  	</ul>
+  	</form>
+</body>
+</html>
